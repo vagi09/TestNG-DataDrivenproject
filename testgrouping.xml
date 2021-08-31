@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestTutorial">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+
+		</groups>
+		<classes>
+			<class name="TestNGpractice.TestNGAnnotations" />
+			<class name="TestNGpractice.Testngdemo" />
+			<class name="TestNGpractice.demo3" />
+			<class name="TestNGpractice.demo4" />
+			<class name="TestNGpractice.demo2" />
+		</classes>
+	</test>
+</suite> 
